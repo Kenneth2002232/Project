@@ -1,0 +1,198 @@
+
+@media(max-width:850px){
+    *{
+   overflow-x: hidden;
+
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+padding-right: 4px;
+    }
+    header{
+        padding: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+        min-height: 10vh;
+    }
+header h2{
+    padding-top: 22px;
+}
+    header .checkbtn{
+       display:contents;
+  
+      }
+      header i{
+        min-height: 10vh;
+      }
+
+   .container header nav{
+    padding-top: 3%;
+        position: fixed;
+        width: 100%;
+        height: 260px;
+        background: #2c3e50;
+        left: -900px;
+        top: 80px;
+       display:block;
+        text-align: center;
+        transition: all .5s;
+        padding-left: 0;
+        }
+    header nav a{
+        display:block;
+        padding: 10px 0;
+    }
+        footer{
+            padding: 0;
+        }
+        #check:checked ~ nav{
+            left: 0;
+          }
+.container .content h1{
+  font-size: 50px;
+}
+.container .content button{
+    min-width: 120px;
+    border-radius: 1px;
+}
+.bot{
+    display: block;
+}
+.bot .img{
+min-height: 50vh;
+}
+.bot .bot_content{
+    padding: 0;
+}
+
+.exp{
+    min-height: 65vh;
+}
+.exp h3{
+    margin-top: 5%;
+}
+.exp label{
+    font-size: 30px;
+}
+.exp .num{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto auto;
+    min-height: 35vh;
+}
+.exp .num div{
+   min-height: 15vh;
+}
+.portfolio label{
+    font-size: 30px;
+}
+.portfolio .grid{
+    display: block;
+    padding: 0;
+}
+.portfolio .grid div{
+    min-width: 100%;
+}
+.portfolio .grid h1{
+    font-size: 30px;
+}
+label{
+    word-spacing: 0;
+}
+.portfolio .wew{
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.portfolio{
+    padding: 0;
+
+}
+
+.review{
+    margin-top: 10%;
+}
+.news{
+    padding: 0;
+}
+.news label{
+font-size: 30px;
+}
+.news .search2{
+    padding: 0 15px;
+    margin: 30px 0;
+min-width: 100%;
+}
+.news .search2 input{
+    min-height: 6vh;
+    border: 3px solid black;
+    min-width: 70%;
+    padding: 0 20px;
+    
+    }
+    .news .search2 .sub{
+    min-height: 6vh;
+    min-width: 30%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    margin-left: 5px;
+    
+    }
+
+ footer nav{
+    display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+ }
+ .search{
+    min-width: 10px;
+    margin-left: 0;
+ }
+ .active{
+border-bottom: 0;
+ }
+ footer nav a{
+
+    padding: 15px 0;
+    text-align: center;
+ }
+ footer nav h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+ }
+ footer nav div{
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.portfolio form{
+    min-width: 100%;
+    min-height: 20vh;
+    background-color: black;
+    color: white;
+    padding-top:1% ;
+    text-align: left;
+    margin-top: 0;
+    margin-left:0;
+    float: left;
+    padding-left: 30px;
+}
+.portfolio form .swipe p{
+    text-align: center;
+    margin: auto 0; 
+    color: white;
+    
+   
+}
+.portfolio form .swipe{
+    display: flex;
+    padding: 0;
+    margin:auto ;
+    margin-top: 30px;
+}
+
+}
